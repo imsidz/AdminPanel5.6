@@ -22,7 +22,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Da</b>Gems</a>
+    <a href="#"><b>Log</b>in</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -38,7 +38,7 @@
                     <strong>{{ $errors->first('email') }}</strong>
                 </span>
             @endif
-          <span class="fa fa-envelope form-control-feedback"></span>
+          {{-- <span class="fa fa-envelope form-control-feedback"></span> --}}
         </div>
         <div class="form-group has-feedback">
           <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required placeholder="Password">
@@ -47,7 +47,7 @@
                     <strong>{{ $errors->first('password') }}</strong>
                 </span>
             @endif
-          <span class="fa fa-lock form-control-feedback"></span>
+          {{-- <span class="fa fa-lock form-control-feedback"></span> --}}
         </div>
         <div class="row">
           <div class="col-8">
@@ -67,7 +67,15 @@
 
       
       <!-- /.social-auth-links -->
-
+       <div class="social-auth-links text-center mb-3">
+        <p>- OR -</p>
+        <a href="{{ url('login/facebook') }}" class="btn btn-block btn-primary">
+          <i class="fa fa-facebook mr-2"></i> Sign in using Facebook
+        </a>
+        <a href="{{ url('login/google') }}" class="btn btn-block btn-danger">
+          <i class="fa fa-google-plus mr-2"></i> Sign in using Google+
+        </a>
+      </div>
       {{-- <p class="mb-1">
         <a href="#">I forgot my password</a>
       </p> --}}

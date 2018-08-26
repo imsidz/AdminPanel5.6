@@ -160,10 +160,10 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="{{ url('/')}}" class="brand-link" target="__blank">
       <img src="{{ asset('dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Admin Panel</span>
+      <span class="brand-text font-weight-light">View Site</span>
     </a>
 
     <!-- Sidebar -->
@@ -189,7 +189,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2018 <a href="https://weblogixinfotech.com/">Weblogix</a>.</strong>
+    <strong>Copyright &copy; 2014-2018 <a href="#">Sidz</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 1.0.0
