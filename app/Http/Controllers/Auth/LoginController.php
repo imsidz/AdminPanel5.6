@@ -63,27 +63,6 @@ class LoginController extends Controller
         $authUser = $this->findOrCreateUser($user, $provider);
         Auth::login($authUser, true);
         return redirect($this->redirectTo);
-
-        // $userSocial = Socialite::driver('facebook')->user();
-
-        // $user = User::where('email', $userSocial->email)->first();
-
-        // if ($user) {
-        //     if (Auth::loginUsingId($user->id)) {
-        //         return redirect()->route('home');
-        //     }
-        // }
-        // $userSignup = new User;
-        // $userSignup->name = $userSocial->name;
-        // $userSignup->email = $userSocial->email;
-        // $userSignup->password = $userSocial->token;
-        // $userSignup->save();
-
-        // if ($userSignup) {
-        //     if (Auth::loginUsingId($userSignup->id)) {
-        //         return redirect()->route('home');
-        //     }
-        // }
     }
 
     public function findOrCreateUser($user, $provider)
