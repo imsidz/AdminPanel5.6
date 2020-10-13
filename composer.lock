@@ -587,6 +587,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -631,6 +632,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2015-04-20T18:58:01+00:00"
         },
         {
@@ -1668,17 +1670,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -2224,7 +2226,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -2678,20 +2680,20 @@
         },
         {
             "name": "thomaswelton/laravel-gravatar",
-            "version": "1.1.3",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thomaswelton/laravel-gravatar.git",
-                "reference": "1d4ef2f18db9f0d3802c312551ffc7204c411589"
+                "reference": "bdfa24847a5602aa9273967c8b6d5e3ec6860ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaswelton/laravel-gravatar/zipball/1d4ef2f18db9f0d3802c312551ffc7204c411589",
-                "reference": "1d4ef2f18db9f0d3802c312551ffc7204c411589",
+                "url": "https://api.github.com/repos/thomaswelton/laravel-gravatar/zipball/bdfa24847a5602aa9273967c8b6d5e3ec6860ed1",
+                "reference": "bdfa24847a5602aa9273967c8b6d5e3ec6860ed1",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.0",
+                "illuminate/support": "~5.0|^6.0|^7.0|^8.0",
                 "php": ">=5.4.0",
                 "thomaswelton/gravatarlib": "0.1.x"
             },
@@ -2739,7 +2741,7 @@
                 "laravel",
                 "laravel5"
             ],
-            "time": "2017-09-19T15:44:58+00:00"
+            "time": "2020-10-12T14:45:23+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -3798,6 +3800,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2018-10-30T05:52:18+00:00"
         },
         {
@@ -4598,5 +4601,6 @@
     "platform": {
         "php": "^7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
